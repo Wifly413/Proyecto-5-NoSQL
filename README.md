@@ -10,7 +10,7 @@
 ![Prueba GET](./images/obtener.png)
 
 ### 2.1 Obtener Películas por ID (GET)
-![Prueba GET](./images/obtenerPorID.png)
+![Prueba GET](./images/obtenerPorId.png)
 
 ### 2.2 Obtener Películas por Titulo (GET)
 ![Prueba GET](./images/obtener.png)
@@ -19,7 +19,7 @@
 ![Prueba GET](./images/ObtenerPorGenero.png)
 
 ### 2.4 Obtener Películas por Año (GET)
-![Prueba GET](./images/obtenerPorAño.png)
+![Prueba GET](./images/peliculaAño.png)
 
 ### 3. Modificar Película (PUT)
 ![Prueba PUT](./images/modificar.png)
