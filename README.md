@@ -29,3 +29,7 @@
 
 ### 5. Control de Errores (404)
 ![Prueba 404](./images/error.png)
+
+##  He creado una colección adicional y totalmente funcional para gestionar Videojuegos
+![Prueba de la API de Videojuegos](./images/obtenerVideojuegos.png)
+
