@@ -6,11 +6,13 @@ connect();
 const PORT = 8080
 const server = express()
 
-const rutas = require('./routes/movie.routes')
+const rutasPelis = require('./routes/movie.routes')
+const rutasVideojuegos = require('./routes/videojuegos.routes')
 
 server.use(express.json())
 server.use(express.urlencoded({ extended: false }))
-server.use('/movies', rutas)
+server.use('/videojuegos', rutasVideojuegos)
+server.use('/movies', rutasPelis)
 
 // Manejo de error 404 Ruta no encontrada
 server.use((req, res, next) => {
