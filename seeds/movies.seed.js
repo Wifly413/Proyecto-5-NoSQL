@@ -43,13 +43,13 @@ const movies = [
   },
 ];
 
-const movieDocuments = movies.map(movie => new Movie(movie));
+const movieDocuments = movies.map(movie => new Movie(movie))
 mongoose
   .connect('mongodb://localhost:27017')
   .then(async () => {
     const allMovies = await Movie.find();
     if (allMovies.length) {
-      await Movie.collection.drop(); 
+      await Movie.collection.drop();
     }
   })
   .catch((err) => console.log(`Error deleting data: ${err}`))
@@ -58,4 +58,4 @@ mongoose
     console.log('DatabaseCreated')
 	})
   .catch((err) => console.log(`Error creating data: ${err}`))
-  .finally(() => mongoose.disconnect());
+  .finally(() => mongoose.disconnect())
