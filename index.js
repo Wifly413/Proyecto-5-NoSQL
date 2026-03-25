@@ -1,7 +1,7 @@
 const express = require('express')
-const {connect} = require('./utils/db')
+const connect = require('./utils/db')
 
-connect();
+connect()
 
 const PORT = 8080
 const server = express()
